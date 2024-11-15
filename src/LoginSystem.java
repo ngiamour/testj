@@ -11,7 +11,7 @@ public class LoginSystem {
         for (User user : userList) {
             if(user.getUserName().equals(username) && user.getPassword().equals(password)) {
                 loggedUser = user;
-                System.out.println("Καλωσήρθες "+ loggedUser.getUserName() + "!");
+                System.out.println("Καλωσόρισες "+ loggedUser.getUserName() + "!");
                 return true;
             }
         }
